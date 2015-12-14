@@ -1,0 +1,663 @@
+{
+   "players" : [
+      {
+         "alive" : true,
+         "name" : "!!!____________________!!!",
+         "score" : -9,
+         "id" : "3a61ba15-7974-40a0-82d2-412688bf9326",
+         "position" : {
+            "x" : 9,
+            "y" : 9
+         }
+      },
+      {
+         "name" : "4c5995f7-8d16-4c1f-b1fa-bd2ed99d8744",
+         "alive" : true,
+         "position" : {
+            "x" : 9,
+            "y" : 1
+         },
+         "id" : "4c5995f7-8d16-4c1f-b1fa-bd2ed99d8744",
+         "score" : 0
+      },
+      {
+         "name" : "!!!__________________We!!!",
+         "alive" : true,
+         "position" : {
+            "x" : 9,
+            "y" : 9
+         },
+         "id" : "4dadbbce-a63b-468f-9c51-9737a4e00193",
+         "score" : -3
+      },
+      {
+         "name" : "54df3258-7eda-4431-a0ba-307c0c5b3c3e",
+         "alive" : true,
+         "position" : {
+            "x" : 1,
+            "y" : 9
+         },
+         "score" : 0,
+         "id" : "54df3258-7eda-4431-a0ba-307c0c5b3c3e"
+      },
+      {
+         "name" : "WLHN",
+         "alive" : true,
+         "position" : {
+            "y" : 9,
+            "x" : 1
+         },
+         "score" : -6,
+         "id" : "7ac235dc-05ed-42f6-845f-9eac81d76ecd"
+      },
+      {
+         "alive" : true,
+         "name" : "Clojurians 2",
+         "id" : "ae87fb07-bd61-4144-b3a4-a3e15d7e6238",
+         "score" : 0,
+         "position" : {
+            "x" : 9,
+            "y" : 1
+         }
+      },
+      {
+         "alive" : true,
+         "name" : "!!!___________________W!!!",
+         "id" : "e0ba30b1-a107-47a5-b9d4-d53f622df2ef",
+         "score" : -2,
+         "position" : {
+            "x" : 9,
+            "y" : 9
+         }
+      },
+      {
+         "alive" : true,
+         "name" : "(*_*)",
+         "score" : 0,
+         "id" : "f545a439-2e18-48f1-86c2-be72272d61d2",
+         "position" : {
+            "y" : 1,
+            "x" : 9
+         }
+      }
+   ],
+   "bombs" : [],
+   "walls" : [
+      {
+         "position" : {
+            "y" : 0,
+            "x" : 0
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "position" : {
+            "x" : 1,
+            "y" : 0
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 2,
+            "y" : 0
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "y" : 0,
+            "x" : 3
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 4,
+            "y" : 0
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 5,
+            "y" : 0
+         }
+      },
+      {
+         "position" : {
+            "y" : 0,
+            "x" : 6
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 7,
+            "y" : 0
+         }
+      },
+      {
+         "position" : {
+            "x" : 8,
+            "y" : 0
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 9,
+            "y" : 0
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "y" : 0,
+            "x" : 10
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 0,
+            "y" : 10
+         }
+      },
+      {
+         "position" : {
+            "x" : 1,
+            "y" : 10
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 2,
+            "y" : 10
+         }
+      },
+      {
+         "position" : {
+            "x" : 3,
+            "y" : 10
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "y" : 10,
+            "x" : 4
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 5,
+            "y" : 10
+         }
+      },
+      {
+         "position" : {
+            "y" : 10,
+            "x" : 6
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "position" : {
+            "x" : 7,
+            "y" : 10
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 8,
+            "y" : 10
+         }
+      },
+      {
+         "position" : {
+            "x" : 9,
+            "y" : 10
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "y" : 10,
+            "x" : 10
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "x" : 0,
+            "y" : 0
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 1,
+            "x" : 0
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 0,
+            "y" : 2
+         }
+      },
+      {
+         "position" : {
+            "y" : 3,
+            "x" : 0
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 0,
+            "y" : 4
+         }
+      },
+      {
+         "position" : {
+            "y" : 5,
+            "x" : 0
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 0,
+            "y" : 6
+         }
+      },
+      {
+         "position" : {
+            "y" : 7,
+            "x" : 0
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 8,
+            "x" : 0
+         }
+      },
+      {
+         "position" : {
+            "x" : 0,
+            "y" : 9
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 10,
+            "x" : 0
+         }
+      },
+      {
+         "position" : {
+            "x" : 10,
+            "y" : 0
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 1,
+            "x" : 10
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 2,
+            "x" : 10
+         }
+      },
+      {
+         "position" : {
+            "x" : 10,
+            "y" : 3
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 10,
+            "y" : 4
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 10,
+            "y" : 5
+         }
+      },
+      {
+         "position" : {
+            "x" : 10,
+            "y" : 6
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "y" : 7,
+            "x" : 10
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 10,
+            "y" : 8
+         }
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "y" : 9,
+            "x" : 10
+         }
+      },
+      {
+         "position" : {
+            "x" : 10,
+            "y" : 10
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 2,
+            "y" : 2
+         }
+      },
+      {
+         "position" : {
+            "y" : 4,
+            "x" : 2
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 2,
+            "y" : 6
+         }
+      },
+      {
+         "position" : {
+            "y" : 8,
+            "x" : 2
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "position" : {
+            "y" : 2,
+            "x" : 4
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "x" : 4,
+            "y" : 4
+         }
+      },
+      {
+         "position" : {
+            "x" : 4,
+            "y" : 6
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 4,
+            "y" : 8
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Strong",
+         "position" : {
+            "y" : 2,
+            "x" : 6
+         }
+      },
+      {
+         "position" : {
+            "y" : 4,
+            "x" : 6
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "position" : {
+            "x" : 6,
+            "y" : 6
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "x" : 6,
+            "y" : 8
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "type" : "Strong",
+         "alive" : true,
+         "position" : {
+            "x" : 8,
+            "y" : 2
+         }
+      },
+      {
+         "position" : {
+            "y" : 4,
+            "x" : 8
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "y" : 6,
+            "x" : 8
+         },
+         "alive" : true,
+         "type" : "Strong"
+      },
+      {
+         "position" : {
+            "x" : 8,
+            "y" : 8
+         },
+         "type" : "Strong",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Weak",
+         "position" : {
+            "y" : 1,
+            "x" : 3
+         }
+      },
+      {
+         "alive" : true,
+         "type" : "Weak",
+         "position" : {
+            "x" : 7,
+            "y" : 1
+         }
+      },
+      {
+         "position" : {
+            "y" : 5,
+            "x" : 3
+         },
+         "type" : "Weak",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "x" : 7,
+            "y" : 5
+         },
+         "type" : "Weak",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Weak",
+         "position" : {
+            "x" : 3,
+            "y" : 9
+         }
+      },
+      {
+         "position" : {
+            "x" : 7,
+            "y" : 9
+         },
+         "type" : "Weak",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "y" : 3,
+            "x" : 1
+         },
+         "type" : "Weak",
+         "alive" : true
+      },
+      {
+         "alive" : true,
+         "type" : "Weak",
+         "position" : {
+            "x" : 5,
+            "y" : 3
+         }
+      },
+      {
+         "position" : {
+            "y" : 3,
+            "x" : 9
+         },
+         "type" : "Weak",
+         "alive" : false
+      },
+      {
+         "type" : "Weak",
+         "alive" : true,
+         "position" : {
+            "x" : 1,
+            "y" : 7
+         }
+      },
+      {
+         "position" : {
+            "y" : 7,
+            "x" : 5
+         },
+         "type" : "Weak",
+         "alive" : true
+      },
+      {
+         "position" : {
+            "x" : 9,
+            "y" : 7
+         },
+         "alive" : true,
+         "type" : "Weak"
+      }
+   ]
+}
